@@ -35,51 +35,222 @@
     align-items: center;
 }
 
-.col-1 {
+[class*="col"]{
+    flex-grow: 0;
+    flex-basis: 0;
+    flex-basis: auto;
+}
+
+.col-1-xs {
     flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
 }
 
-.col-2 {
+.col-2-xs {
     flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
 }
 
-.col-3 {
+.col-3-xs {
     flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
 }
-.col-4 {
+.col-4-xs {
     flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
 }
 
-.col-5 {
+.col-5-xs {
     flex-basis: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
 }
 
-.col-6 {
+.col-6-xs {
     flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
 }
 
-.col-7 {
+.col-7-xs {
     flex-basis: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
 }
 
-.col-8 {
+.col-8-xs {
     flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
 }
 
-.col-9 {
+.col-9-xs {
     flex-basis: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
 }
 
-.col-10 {
+.col-10-xs {
     flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
 }
 
-.col-11 {
+.col-11-xs {
     flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
 }
 
-.col-12 {
+.col-12-xs {
     flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+}
+
+/* MEDIA QUERY SM */
+@media all and (max-width: 767px) {
+    .col-1-sm {
+        flex-basis: calc((100% / 12) * 1);
+        max-width: calc((100% / 12) * 1);
+    }
+    
+    .col-2-sm {
+        flex-basis: calc((100% / 12) * 2);
+    }
+    
+    .col-3-sm {
+        flex-basis: calc((100% / 12) * 3);
+    }
+    .col-4-sm {
+        flex-basis: calc((100% / 12) * 4);
+    }
+    
+    .col-5-sm {
+        flex-basis: calc((100% / 12) * 5);
+    }
+    
+    .col-6-sm {
+        flex-basis: calc((100% / 12) * 6);
+    }
+    
+    .col-7-sm {
+        flex-basis: calc((100% / 12) * 7);
+    }
+    
+    .col-8-sm {
+        flex-basis: calc((100% / 12) * 8);
+    }
+    
+    .col-9-sm {
+        flex-basis: calc((100% / 12) * 9);
+    }
+    
+    .col-10-sm {
+        flex-basis: calc((100% / 12) * 10);
+    }
+    
+    .col-11-sm {
+        flex-basis: calc((100% / 12) * 11);
+    }
+    
+    .col-12-sm {
+        flex-basis: calc((100% / 12) * 12);
+    }
+}
+
+/* MEDIA QUERY MD */
+@media all and (max-width: 981px) {
+    .col-1-md {
+        flex-basis: calc((100% / 12) * 1);
+        max-width: calc((100% / 12) * 1);
+    }
+    
+    .col-2-md {
+        flex-basis: calc((100% / 12) * 2);
+    }
+    
+    .col-3-md {
+        flex-basis: calc((100% / 12) * 3);
+    }
+    .col-4-md {
+        flex-basis: calc((100% / 12) * 4);
+    }
+    
+    .col-5-md {
+        flex-basis: calc((100% / 12) * 5);
+    }
+    
+    .col-6-md {
+        flex-basis: calc((100% / 12) * 6);
+    }
+    
+    .col-7-md {
+        flex-basis: calc((100% / 12) * 7);
+    }
+    
+    .col-8-md {
+        flex-basis: calc((100% / 12) * 8);
+    }
+    
+    .col-9-md {
+        flex-basis: calc((100% / 12) * 9);
+    }
+    
+    .col-10-md {
+        flex-basis: calc((100% / 12) * 10);
+    }
+    
+    .col-11-md {
+        flex-basis: calc((100% / 12) * 11);
+    }
+    
+    .col-12-md {
+        flex-basis: calc((100% / 12) * 12);
+    }
+}
+
+/* MEDIA QUERY LG */
+@media all and (max-width: 982px) {
+    .col-1-lg {
+        flex-basis: calc((100% / 12) * 1);
+        max-width: calc((100% / 12) * 1);
+    }
+    
+    .col-2-lg {
+        flex-basis: calc((100% / 12) * 2);
+    }
+    
+    .col-3-lg {
+        flex-basis: calc((100% / 12) * 3);
+    }
+    .col-4-lg {
+        flex-basis: calc((100% / 12) * 4);
+    }
+    
+    .col-5-lg {
+        flex-basis: calc((100% / 12) * 5);
+    }
+    
+    .col-6-lg {
+        flex-basis: calc((100% / 12) * 6);
+    }
+    
+    .col-7-lg {
+        flex-basis: calc((100% / 12) * 7);
+    }
+    
+    .col-8-lg {
+        flex-basis: calc((100% / 12) * 8);
+    }
+    
+    .col-9-lg {
+        flex-basis: calc((100% / 12) * 9);
+    }
+    
+    .col-10-lg {
+        flex-basis: calc((100% / 12) * 10);
+    }
+    
+    .col-11-lg {
+        flex-basis: calc((100% / 12) * 11);
+    }
+    
+    .col-12-lg {
+        flex-basis: calc((100% / 12) * 12);
+    }
 }
 
 /* OFFSETS */
