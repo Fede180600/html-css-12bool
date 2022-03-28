@@ -1,7 +1,3 @@
-.container-fluid {
-    background-color: blueviolet;
-}
-
 .col {
     background-color: #006cfa;
     color: white;
@@ -15,4 +11,8 @@
 
 .padding-10 {
     padding: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
